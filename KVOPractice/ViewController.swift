@@ -21,8 +21,6 @@ class ViewController: UIViewController {
   @IBOutlet weak var timeLabel: UILabel!
   
   let configurationManager = ConfigurationManager(withConfiguration: Configuration())
-  // Needed for oldWay
-//  private var myContext = 0
   
   // Needed for newWay
   var token: NSKeyValueObservation? = nil
